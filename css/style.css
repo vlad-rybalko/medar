@@ -425,6 +425,7 @@ img {
 /* Intro styles end */
 
 /* Our advantage style start  */
+
 .advantage__title {
 	text-align: center;
 	font-size: 36px;
@@ -440,7 +441,8 @@ img {
 .advantage__cards {
 	display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 82px;
+	grid-column-gap: 82px;
+	margin-bottom: 43px;
 }
 
 .advantage__card {
@@ -463,6 +465,86 @@ img {
 }
 
 .advantage__card_desc {
+	font-size: 14px;
+	line-height: 16px;
 	text-align: center;
+	color: #AAAAAA;
 }
 /* Our advantage style end  */
+
+/* Our products style start */
+.products {
+	background-color: #F3F3F3;
+}
+
+.products__title {
+	margin-bottom: 24px;
+	padding-top: 97px;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+}
+
+.products__desc {
+	display: block;
+	width: 779px;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #AAAAAA;
+	margin: 0 auto 40px auto;
+}
+
+.products__format {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	margin-bottom: 26px;
+}
+
+.product__first {
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 103px;
+    align-items: center;
+}
+
+.product__second {
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 103px;
+    align-items: center;
+}
+
+.product__title {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 8px;
+}
+
+.product__desc {
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom: 24px;
+}
+
+.product__buy {
+	font-weight: bold;
+	padding: 20px 47px 18px 47px;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 0.25em;
+	color: #FFFFFF;
+	background: #54C5B0;
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+.product__info a {
+	display: inline-block;
+	margin-top: 16px;
+}
+
+/* Our products style end */

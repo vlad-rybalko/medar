@@ -421,12 +421,87 @@ img {
 	background: url(../img/intro.jpg) no-repeat center;
 	background-size: cover;
 	margin-bottom: 90px;
+	padding-top: 225px;
+}
+
+.breadcrumbs {
+	display: flex;
+	font-size: 14px;
+	line-height: 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-bottom: 14px;
+}
+
+.breadcrumbs a {
+	font-size: 14px;
+	line-height: 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-right: 7px;
+}
+
+.breadcrumbs span {
+	font-size: 14px;
+	line-height: 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-right: 7px;
+}
+
+.intro__title {
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	margin-bottom: 224px;
+}
+
+.intro__info {
+	display: flex;
+}
+
+.info__card {
+	max-width: 150px;
+}
+
+.info__card_num {
+	display: flex;
+	margin-right: 58px;
+}
+
+.info__card_num p {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 73px;
+	color: #FFFFFF;
+	margin-right: 11px;
+	margin-bottom: 7px;
+}
+
+.info__card_num span {
+	margin-top: 7px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #FFFFFF;
+}
+
+.info__card_desc {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #FFFFFF;
+	max-width: 106px;
 }
 /* Intro styles end */
 
 /* Our advantage style start  */
 
 .advantage__title {
+	font-family: 'Gilroy-Regular'; 
 	text-align: center;
 	font-size: 36px;
 	line-height: 42px;
